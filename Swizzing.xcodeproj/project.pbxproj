@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFB5887A2072211800369C9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB588792072211800369C9D /* AppDelegate.m */; };
+		FFB5887D2072211800369C9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB5887C2072211800369C9D /* ViewController.m */; };
+		FFB588802072211800369C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB5887E2072211800369C9D /* Main.storyboard */; };
+		FFB588822072211800369C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB588812072211800369C9D /* Assets.xcassets */; };
+		FFB588852072211800369C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB588832072211800369C9D /* LaunchScreen.storyboard */; };
+		FFB588882072211800369C9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB588872072211800369C9D /* main.m */; };
+		FFB588902072223000369C9D /* ArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB5888F2072223000369C9D /* ArrayViewController.m */; };
+		FFB588932072223E00369C9D /* DictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB588922072223E00369C9D /* DictionaryViewController.m */; };
+		FFB588992072226C00369C9D /* NSMutableArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB588962072226C00369C9D /* NSMutableArray+Swizzling.m */; };
+		FFB5889A2072226C00369C9D /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB588972072226C00369C9D /* NSDictionary+NilSafe.m */; };
+		FFB5889D2072250F00369C9D /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB5889C2072250F00369C9D /* NSObject+Swizzling.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFB588752072211800369C9D /* Swizzing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swizzing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB588782072211800369C9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFB588792072211800369C9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFB5887B2072211800369C9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFB5887C2072211800369C9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFB5887F2072211800369C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFB588812072211800369C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFB588842072211800369C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFB588862072211800369C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB588872072211800369C9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFB5888E2072223000369C9D /* ArrayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayViewController.h; sourceTree = "<group>"; };
+		FFB5888F2072223000369C9D /* ArrayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayViewController.m; sourceTree = "<group>"; };
+		FFB588912072223E00369C9D /* DictionaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryViewController.h; sourceTree = "<group>"; };
+		FFB588922072223E00369C9D /* DictionaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryViewController.m; sourceTree = "<group>"; };
+		FFB588952072226C00369C9D /* NSMutableArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzling.h"; sourceTree = "<group>"; };
+		FFB588962072226C00369C9D /* NSMutableArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzling.m"; sourceTree = "<group>"; };
+		FFB588972072226C00369C9D /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
+		FFB588982072226C00369C9D /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
+		FFB5889B2072250F00369C9D /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		FFB5889C2072250F00369C9D /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB588722072211800369C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB5886C2072211800369C9D = {
+			isa = PBXGroup;
+			children = (
+				FFB588772072211800369C9D /* Swizzing */,
+				FFB588762072211800369C9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB588762072211800369C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB588752072211800369C9D /* Swizzing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB588772072211800369C9D /* Swizzing */ = {
+			isa = PBXGroup;
+			children = (
+				FFB588782072211800369C9D /* AppDelegate.h */,
+				FFB588792072211800369C9D /* AppDelegate.m */,
+				FFB5887B2072211800369C9D /* ViewController.h */,
+				FFB5887C2072211800369C9D /* ViewController.m */,
+				FFB5888E2072223000369C9D /* ArrayViewController.h */,
+				FFB5888F2072223000369C9D /* ArrayViewController.m */,
+				FFB588912072223E00369C9D /* DictionaryViewController.h */,
+				FFB588922072223E00369C9D /* DictionaryViewController.m */,
+				FFB588942072225700369C9D /* category */,
+				FFB5887E2072211800369C9D /* Main.storyboard */,
+				FFB588812072211800369C9D /* Assets.xcassets */,
+				FFB588832072211800369C9D /* LaunchScreen.storyboard */,
+				FFB588862072211800369C9D /* Info.plist */,
+				FFB588872072211800369C9D /* main.m */,
+			);
+			path = Swizzing;
+			sourceTree = "<group>";
+		};
+		FFB588942072225700369C9D /* category */ = {
+			isa = PBXGroup;
+			children = (
+				FFB5889B2072250F00369C9D /* NSObject+Swizzling.h */,
+				FFB5889C2072250F00369C9D /* NSObject+Swizzling.m */,
+				FFB588982072226C00369C9D /* NSDictionary+NilSafe.h */,
+				FFB588972072226C00369C9D /* NSDictionary+NilSafe.m */,
+				FFB588952072226C00369C9D /* NSMutableArray+Swizzling.h */,
+				FFB588962072226C00369C9D /* NSMutableArray+Swizzling.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB588742072211800369C9D /* Swizzing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB5888B2072211800369C9D /* Build configuration list for PBXNativeTarget "Swizzing" */;
+			buildPhases = (
+				FFB588712072211800369C9D /* Sources */,
+				FFB588722072211800369C9D /* Frameworks */,
+				FFB588732072211800369C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swizzing;
+			productName = Swizzing;
+			productReference = FFB588752072211800369C9D /* Swizzing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB5886D2072211800369C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = health;
+				TargetAttributes = {
+					FFB588742072211800369C9D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFB588702072211800369C9D /* Build configuration list for PBXProject "Swizzing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFB5886C2072211800369C9D;
+			productRefGroup = FFB588762072211800369C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB588742072211800369C9D /* Swizzing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB588732072211800369C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB588852072211800369C9D /* LaunchScreen.storyboard in Resources */,
+				FFB588822072211800369C9D /* Assets.xcassets in Resources */,
+				FFB588802072211800369C9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB588712072211800369C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB5887D2072211800369C9D /* ViewController.m in Sources */,
+				FFB5889A2072226C00369C9D /* NSDictionary+NilSafe.m in Sources */,
+				FFB588882072211800369C9D /* main.m in Sources */,
+				FFB5889D2072250F00369C9D /* NSObject+Swizzling.m in Sources */,
+				FFB588932072223E00369C9D /* DictionaryViewController.m in Sources */,
+				FFB588902072223000369C9D /* ArrayViewController.m in Sources */,
+				FFB5887A2072211800369C9D /* AppDelegate.m in Sources */,
+				FFB588992072226C00369C9D /* NSMutableArray+Swizzling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFB5887E2072211800369C9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB5887F2072211800369C9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFB588832072211800369C9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB588842072211800369C9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB588892072211800369C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFB5888A2072211800369C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB5888C2072211800369C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U84SAUG39Q;
+				INFOPLIST_FILE = Swizzing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = health.Swizzing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFB5888D2072211800369C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U84SAUG39Q;
+				INFOPLIST_FILE = Swizzing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = health.Swizzing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB588702072211800369C9D /* Build configuration list for PBXProject "Swizzing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB588892072211800369C9D /* Debug */,
+				FFB5888A2072211800369C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB5888B2072211800369C9D /* Build configuration list for PBXNativeTarget "Swizzing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB5888C2072211800369C9D /* Debug */,
+				FFB5888D2072211800369C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFB5886D2072211800369C9D /* Project object */;
+}
